@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería</title>
+    <link rel="stylesheet" href="./static/style.css">
+    <link rel="shortcut icon" href="./imagenes/Pixton.jpg">
+
+</head>
+<body>
+    <header id="cabecera">
+        <h1>Galería </h1>
+        <img id="logo" width="200" src="./imagenes/Pixton.jpg" alt="">
+
+    </header>
+    <nav class="nav" id="miNav">
+        <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="somos.html">Somos</a></li>
+            </ul>
+    </nav>
+    <main>
+        <h2>Imágenes de muestra</h2>
+        <div class="thumbnails">
+                <a href="#" class="icono-menu" onclick="mostrarMenu()">☰</a>
+                <img src="./imagenes/pixton1.png" alt="" width="200" height="200">
+                <img src="./imagenes/pixton2.png" alt="" width="200" height="200">
+                <img src="./imagenes/pixton3.png" alt="" width="200" height="200">
+                <img src="./imagenes/pixton4.png" alt="" width="200" height="200">
+                <img src="./imagenes/pixton5.png" alt="" width="200" height="200">
+        </div>
+        <div class="full-image-container">
+            <span class="close-btn">&times;</span>
+            <img id="full-image" src="" alt="Imagen completa">
+        </div>
+    </main>
+    <section>
+
+    </section>
+    <footer id="pie">
+        <p>Sitio con fines pedagógicos Jesús Méndez &copf; 2026</p>
+        
+    </footer>
+    <script src="./static/script.js"></script>
+</body>
+</html>
